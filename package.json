@@ -1,0 +1,19 @@
+{
+  "name": "@foxleigh81/grab-project",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A small utility I use to set up a project on my machine the way I like it",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "inquirer": "^9.1.2",
+    "simple-git": "^3.14.1",
+    "yargs": "^17.5.1"
+  }
+}
