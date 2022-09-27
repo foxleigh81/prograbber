@@ -1,4 +1,4 @@
-# Grab Project
+# Prograbber
 
 A simple script to grab a project from a repo, set up some default git hooks, and
 install the project's dependencies.
@@ -14,20 +14,20 @@ and I don't guarantee that it will work for you.
 ## Installation
 
 ```bash
-yarn install -g grab-project
+yarn install -g @foxleigh81/prograbber
 ```
 
 ## Usage
 
 ```bash
-grab-project # Will prompt for the repo
+prograbber # Will prompt for the repo
 ```
 
 ## Options
 
 ```bash
-grab-project <repo> # Will grab the project from the repo
-grab-project <repo> <branch> # Will grab the project from the repo and set the branch
-grab-project -c <branch> # Will checkout a branch from the current repo
-grab-project -n <branch> # Will create a new branch from the currently checked out branch
+prograbber <repo> # Will grab the project from the repo
+prograbber <repo> <branch> # Will grab the project from the repo and set the branch
+prograbber -c <branch> # Will checkout a branch from the current repo
+prograbber -n <branch> # Will create a new branch from the currently checked out branch
 ```
